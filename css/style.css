@@ -1,0 +1,28 @@
+.login {
+    border: 1px solid #000;
+    position: absolute;
+    z-index: 2;
+}
+
+.title {
+    height: 50px;
+    background: #ccc;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.title .close {
+    float: right;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+#mask {
+    position: absolute;
+    background: black;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
